@@ -4,11 +4,16 @@ title: "Manually defining a diverging legend in ggplot"
 date: 2015-02-28 22:51:05 -0700
 comments: true
 categories: census, ggplot, rstats
+excerpt_separator: <!--more-->
 ---
 
 I'm in the process of mapping some data from the [LEHD Origin-Destination Employment Statistics (LODES)](http://lehd.ces.census.gov/data/) helpfully provided by the US Census Bureau. LODES contains information on place of work, place of residence, and flows at the block level. The data are updated annually. As such they're an invaluable resource for studying the commute patterns of demographic groups. 
 
-The analysis I'm working on is looking at changes over time in number of jobs at the census place level (currently 2009 - 2011). I identified the common locations for the region I'm looking at and created an identically structured data frame for each year so that I can easily calculate the difference. Each year of data is identified as `wac.place.year` where `year` varies. Identifying all common places is as simple as calling:
+The analysis I'm working on is looking at changes over time in number of jobs at the census place level (currently 2009 - 2011). I identified the common locations for the region I'm looking at and created an identically structured data frame for each year so that I can easily calculate the difference. Each year of data is identified as `wac.place.year` where `year` varies. I ran into some problems visualizing temporal changes using a built in diverging color scheme that I solved through its manual definition.  
+
+<!--more-->
+
+Identifying all common places is as simple as calling:
 
 ``` r
 
