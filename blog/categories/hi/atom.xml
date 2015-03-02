@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hi | Transportation analysis in R]]></title>
+  <link href="http://aakarner.github.io/blog/categories/hi/atom.xml" rel="self"/>
+  <link href="http://aakarner.github.io/"/>
+  <updated>2015-03-01T21:05:41-07:00</updated>
+  <id>http://aakarner.github.io/</id>
+  <author>
+    <name><![CDATA[Alex Karner]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello, World]]></title>
+    <link href="http://aakarner.github.io/blog/2015/02/27/Hello-world/"/>
+    <updated>2015-02-27T23:36:56-07:00</updated>
+    <id>http://aakarner.github.io/blog/2015/02/27/Hello-world</id>
+    <content type="html"><![CDATA[<p>I create a lot of code (mostly in R, but some Python too) to conduct my analyses. Most of that code sits on my computer, some of it makes its way to GitHub. I want more of a social outlet to work through issues I&rsquo;m having and to share my successes. This blog should serve that purpose. Thanks for stopping by!</p>
+]]></content>
+  </entry>
+  
+</feed>
